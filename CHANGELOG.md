@@ -1,3 +1,9 @@
+## [1.0.1](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/compare/v1.0.0...v1.0.1) (2026-07-27)
+
+### :bug: Fixes
+
+* accept Symfony 8 components alongside 7.4 ([125d985](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/125d985ac09657909553cf5b7a9f29822e6c62ba))
+
 ## 1.0.0 (2026-07-27)
 
 ### :sparkles: Features
