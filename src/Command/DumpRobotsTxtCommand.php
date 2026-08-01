@@ -55,6 +55,8 @@ final class DumpRobotsTxtCommand extends Command
 
         $channel = null;
         $code = $input->getOption('channel');
+        // VALUE_NONE, so getOption() yields exactly true or false.
+        $write = true === $input->getOption('write');
         if (\is_string($code) && '' !== $code) {
             $channel = $this->channelRepository->findOneByCode($code);
             if (!$channel instanceof ChannelInterface) {
@@ -66,7 +68,7 @@ final class DumpRobotsTxtCommand extends Command
 
         $body = $this->generator->generate($this->contextFactory->create($channel));
 
-        if (!$input->getOption('write')) {
+        if (!$write) {
             $output->write($body);
 
             return Command::SUCCESS;
