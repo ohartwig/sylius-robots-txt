@@ -1,3 +1,17 @@
+## [1.1.2](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/compare/v1.1.1...v1.1.2) (2026-08-01)
+
+### :bug: Fixes
+
+* **phpstan:** resolve all 4 level-8 findings without suppressions ([0824164](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/082416426b51702a680b88981d7d45ad7c17b610))
+
+### :zap: Refactor
+
+* **phpstan:** use the shared level-8 standard ([59ac7f6](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/59ac7f6ef5e58a19ea7ceaba8bebc2f01a3724ec))
+
+### :repeat: Chores
+
+* **deps:** update dependency devops/ci-cd-components/composed-default-pipelines to v1.32.2 ([574503d](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/574503df7a939284bb94a6d76152b4179f48e2a2))
+
 ## [1.1.1](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/compare/v1.1.0...v1.1.1) (2026-08-01)
 
 ### :repeat: Chores
