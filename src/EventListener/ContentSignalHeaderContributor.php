@@ -36,7 +36,7 @@ final class ContentSignalHeaderContributor implements ResponseHeaderContributorI
     {
         return $this->enabled
             && $response->isSuccessful()
-            && str_contains((string) $response->headers->get('Content-Type', ''), 'text/html');
+            && str_contains($response->headers->get('Content-Type', ''), 'text/html');
     }
 
     public function contribute(Request $request, Response $response, AgentContext $context): void
