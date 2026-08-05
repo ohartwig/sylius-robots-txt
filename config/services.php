@@ -5,7 +5,7 @@
 
 declare(strict_types=1);
 
-use Koh\SyliusAgentContracts\Context\AgentContextFactory;
+use Koh\SyliusAgentContracts\Context\AgentContextFactoryInterface;
 use Koh\SyliusAgentContracts\Http\AgentJsonResponder;
 use Koh\SyliusRobotsTxt\CacheWarmer\ShadowingFileWarner;
 use Koh\SyliusRobotsTxt\Command\DumpRobotsTxtCommand;
@@ -43,7 +43,7 @@ return static function (ContainerConfigurator $container): void {
     $services->set(RobotsTxtController::class)
         ->args([
             service(RobotsTxtGenerator::class),
-            service(AgentContextFactory::class),
+            service(AgentContextFactoryInterface::class),
             service(AgentJsonResponder::class),
         ])
         ->public()
@@ -59,7 +59,7 @@ return static function (ContainerConfigurator $container): void {
     $services->set(DumpRobotsTxtCommand::class)
         ->args([
             service(RobotsTxtGenerator::class),
-            service(AgentContextFactory::class),
+            service(AgentContextFactoryInterface::class),
             service('sylius.repository.channel'),
             param('kernel.project_dir'),
         ])
