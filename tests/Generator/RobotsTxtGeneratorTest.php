@@ -94,6 +94,70 @@ final class RobotsTxtGeneratorTest extends TestCase
         self::assertStringContainsString('Disallow: /_mcp', $body);
     }
 
+    /**
+     * The escape hatch: verbatim text an operator needs and this bundle does not
+     * model. It goes at the end, after the non-group directives, so it cannot
+     * accidentally land inside a group and change the rules above it.
+     */
+    public function testVerbatimExtraTextIsAppendedAfterTheSitemapLines(): void
+    {
+        $body = (new RobotsTxtGenerator(extra: "# Crawl-delay is not a standard directive.\nCrawl-delay: 10"))
+            ->generate($this->context());
+
+        self::assertStringEndsWith("Sitemap: https://shop.example.com/sitemap.xml\n\n# Crawl-delay is not a standard directive.\nCrawl-delay: 10\n", $body);
+    }
+
+    public function testSurroundingWhitespaceIsTrimmedFromTheExtraText(): void
+    {
+        $body = (new RobotsTxtGenerator(extra: "\n\n  # hand-written  \n\n"))->generate($this->context());
+
+        self::assertStringEndsWith("Sitemap: https://shop.example.com/sitemap.xml\n\n# hand-written\n", $body);
+    }
+
+    public function testWhitespaceOnlyExtraTextAddsNothing(): void
+    {
+        self::assertSame(
+            (new RobotsTxtGenerator())->generate($this->context()),
+            (new RobotsTxtGenerator(extra: "  \n\t "))->generate($this->context()),
+        );
+    }
+
+    /**
+     * Naming no crawler tokens has to mean exactly that. Silently falling back
+     * to the default list would publish a policy the operator did not write.
+     */
+    public function testAnEmptyCrawlerListEmitsNoNamedGroup(): void
+    {
+        $body = (new RobotsTxtGenerator(aiCrawlers: []))->generate($this->context());
+
+        self::assertStringNotContainsString('GPTBot', $body);
+        self::assertStringContainsString('User-agent: *', $body);
+        self::assertCount(1, (new RobotsTxtGenerator(aiCrawlers: []))->groups());
+    }
+
+    /** Paths hidden from AI crawlers only must not leak into the wildcard group. */
+    public function testAiOnlyDisallowsStayInTheNamedGroup(): void
+    {
+        $body = (new RobotsTxtGenerator(aiCrawlers: ['GPTBot'], aiDisallow: ['/blog']))->generate($this->context());
+
+        self::assertMatchesRegularExpression('/User-agent: GPTBot\n(?:.*\n)*?Disallow: \/blog/', $body);
+        self::assertStringNotContainsString("User-agent: *\nContent-Signal: ai-train=no, search=yes, ai-input=yes\nAllow: /\nDisallow: /blog", $body);
+    }
+
+    /**
+     * Configuring no sitemaps must leave neither a dangling directive nor the
+     * blank block that would have separated one. A robots.txt that ends in an
+     * empty record is not something every parser forgives.
+     */
+    public function testNoSitemapsMeansNoSitemapLineAndNoTrailingGap(): void
+    {
+        $body = (new RobotsTxtGenerator(sitemaps: []))->generate($this->context());
+
+        self::assertStringNotContainsString('Sitemap:', $body);
+        self::assertStringEndsWith("Allow: /\n", $body);
+        self::assertStringNotContainsString("\n\n\n", $body);
+    }
+
     public function testFileEndsWithASingleNewline(): void
     {
         $body = (new RobotsTxtGenerator())->generate($this->context());
