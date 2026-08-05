@@ -7,7 +7,7 @@ declare(strict_types=1);
 
 namespace Koh\SyliusRobotsTxt\Controller;
 
-use Koh\SyliusAgentContracts\Context\AgentContextFactory;
+use Koh\SyliusAgentContracts\Context\AgentContextFactoryInterface;
 use Koh\SyliusAgentContracts\Http\AgentJsonResponder;
 use Koh\SyliusRobotsTxt\Generator\RobotsTxtGenerator;
 use Symfony\Component\HttpFoundation\Request;
@@ -24,7 +24,7 @@ final class RobotsTxtController
 {
     public function __construct(
         private readonly RobotsTxtGenerator $generator,
-        private readonly AgentContextFactory $contextFactory,
+        private readonly AgentContextFactoryInterface $contextFactory,
         private readonly AgentJsonResponder $responder,
     ) {
     }

@@ -7,7 +7,7 @@ declare(strict_types=1);
 
 namespace Koh\SyliusRobotsTxt\Command;
 
-use Koh\SyliusAgentContracts\Context\AgentContextFactory;
+use Koh\SyliusAgentContracts\Context\AgentContextFactoryInterface;
 use Sylius\Component\Channel\Repository\ChannelRepositoryInterface;
 use Sylius\Component\Core\Model\ChannelInterface;
 use Koh\SyliusRobotsTxt\Generator\RobotsTxtGenerator;
@@ -35,7 +35,7 @@ final class DumpRobotsTxtCommand extends Command
     /** @param ChannelRepositoryInterface<ChannelInterface> $channelRepository */
     public function __construct(
         private readonly RobotsTxtGenerator $generator,
-        private readonly AgentContextFactory $contextFactory,
+        private readonly AgentContextFactoryInterface $contextFactory,
         private readonly ChannelRepositoryInterface $channelRepository,
         private readonly string $projectDir,
     ) {
