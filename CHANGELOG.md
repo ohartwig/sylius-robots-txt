@@ -1,3 +1,29 @@
+## [1.1.4](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/compare/v1.1.3...v1.1.4) (2026-08-12)
+
+### :bug: Fixes
+
+* depend on the agent context factory interface, not the final class ([10e1165](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/10e11650e0f28b29aad74531b351311c6ac77bb9))
+* **deps:** update dependency sylius/sylius to ^2.0.18 [security] ([50b2a65](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/50b2a65c981811245bd71702f06c1c5bf7f795be))
+
+### :white_check_mark: Tests
+
+* cover the bundle defaults and the RFC 9309 record format ([d45b213](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/d45b2135b57560b216a94f6e9a7fe746855bac21))
+* cover the robots.txt route and dump command ([822fcba](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/822fcba9dd956f2dc5051ff3a55a16ce7ed51aa9))
+* read the whole suite in the coverage gate ([19ae639](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/19ae639d863434c3ad19d67465a6cc4ea827eebb))
+
+### :repeat: Continuous Integrations
+
+* follow the composed pipeline on [@1](https://git.ole-hartwig.eu/1) instead of an exact pin ([6cf7654](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/6cf76540612d92ffb79a54c009b282a6444c4495))
+
+### :repeat: Chores
+
+* **deps:** update dependency devops/ci-cd-components/composed-default-pipelines to v1.36.12 ([0178182](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/0178182b9525c2cab62c940f0463535ffca17d82))
+* **deps:** update dependency devops/ci-cd-components/composed-default-pipelines to v1.36.5 ([39a8416](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/39a8416365125a141a9db1f0aaeb29b0d7afd680))
+* **deps:** update dependency devops/ci-cd-components/composed-default-pipelines to v1.36.6 ([a2b4114](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/a2b4114dcb1fbfb5e5f487d95ec2846f51a14cff))
+* **deps:** update dependency devops/ci-cd-components/composed-default-pipelines to v1.36.8 ([5906f89](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/5906f898630e0b7e19e0f1e98de4677946e46d02))
+* **deps:** update dependency devops/ci-cd-components/composed-default-pipelines to v1.36.9 ([7cd4595](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/7cd4595b90c1571ce82550a2e1e1ffc7e0ee074b))
+* **deps:** update dependency phpunit/phpunit to ^11.5.50 [security] ([0647ee5](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/0647ee5fc046dd777f013975ae8426bf30664ac2))
+
 ## [1.1.3](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/compare/v1.1.2...v1.1.3) (2026-08-03)
 
 ### :repeat: Chores
