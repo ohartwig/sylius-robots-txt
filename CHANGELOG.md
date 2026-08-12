@@ -1,3 +1,13 @@
+## [1.1.5](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/compare/v1.1.4...v1.1.5) (2026-08-12)
+
+### :bug: Fixes
+
+* **deps:** update dependency php to ^8.5.9 ([ea55657](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/ea556573dc7e13011221a8e5181bd198bd7cbee2))
+
+### :repeat: Chores
+
+* **deps:** update dependency phpstan/phpstan to ^2.2.8 ([546c199](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/546c19975ee5686ceed965ef50b1e518fc9df439))
+
 ## [1.1.4](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/compare/v1.1.3...v1.1.4) (2026-08-12)
 
 ### :bug: Fixes
