@@ -1,3 +1,13 @@
+## [1.1.6](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/compare/v1.1.5...v1.1.6) (2026-08-13)
+
+### :bug: Fixes
+
+* **deps:** update dependency sylius/sylius to ^2.2.8 ([8876147](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/8876147f8b468a9990d3aace2b28ef644bc124aa))
+
+### :repeat: Chores
+
+* **deps:** update dependency phpunit/phpunit to ^11.5.56 ([58d552c](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/58d552cba4ce9e624778877b3533f6ac6171a2df))
+
 ## [1.1.5](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/compare/v1.1.4...v1.1.5) (2026-08-12)
 
 ### :bug: Fixes
