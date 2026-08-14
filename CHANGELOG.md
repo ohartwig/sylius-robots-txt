@@ -1,3 +1,9 @@
+## [1.1.7](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/compare/v1.1.6...v1.1.7) (2026-08-14)
+
+### :bug: Fixes
+
+* allow the infection extension installer plugin ([aed63fc](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/aed63fcd535c176356dfba470ac7b37e0184fc60))
+
 ## [1.1.6](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/compare/v1.1.5...v1.1.6) (2026-08-13)
 
 ### :bug: Fixes
