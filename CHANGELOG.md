@@ -1,3 +1,9 @@
+## [1.1.9](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/compare/v1.1.8...v1.1.9) (2026-08-22)
+
+### :repeat: Chores
+
+* **repo-templates:** sync ([0c7e161](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/0c7e16177b4d941655002227f5b5de6e4b16a85b))
+
 ## [1.1.8](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/compare/v1.1.7...v1.1.8) (2026-08-15)
 
 ### :repeat: Chores
