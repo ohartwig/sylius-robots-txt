@@ -1,3 +1,9 @@
+## [1.1.14](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/compare/v1.1.13...v1.1.14) (2026-09-02)
+
+### :bug: Fixes
+
+* **deps:** update dependency php to ^8.5.10 ([e0b9e5c](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/e0b9e5ce798360cf266c8f024264f7c5630c9b85))
+
 ## [1.1.13](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/compare/v1.1.12...v1.1.13) (2026-09-01)
 
 ### :repeat: Chores
