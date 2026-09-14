@@ -1,3 +1,9 @@
+## [1.1.19](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/compare/v1.1.18...v1.1.19) (2026-09-14)
+
+### :bug: Fixes
+
+* **docs:** Markdown-Hygiene fuer lint:markdown ([baf63d7](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/baf63d7e9af9bb9d83b83308873a2d8bcaf528b8))
+
 ## [1.1.18](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/compare/v1.1.17...v1.1.18) (2026-09-13)
 
 ### :repeat: Continuous Integrations
