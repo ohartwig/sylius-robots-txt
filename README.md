@@ -59,7 +59,7 @@ koh_robots_txt:
 
 ## Output
 
-```
+```text
 User-agent: *
 Content-Signal: ai-train=no, search=yes, ai-input=yes
 Allow: /
