@@ -1,7 +1,7 @@
 version = 1
 SPDX-PackageName = "koh/sylius-robots-txt"
 SPDX-PackageSupplier = "Kai Ole Hartwig <mail@ole-hartwig.eu>"
-SPDX-PackageDownloadLocation = "https://github.com/ole-hartwig/sylius-robots-txt"
+SPDX-PackageDownloadLocation = "https://github.com/ohartwig/sylius-robots-txt"
 
 # Config, metadata and repo-template files. They carry no comment syntax that
 # survives their own tooling (composer.json, JSON-like configs), are generated
@@ -21,7 +21,9 @@ path = [
     "SECURITY.md",
     ".well-known/security.txt",
     ".gitlab/**",
+    ".mise.toml",
+    ".gitsigners.d/**",
 ]
 precedence = "aggregate"
-SPDX-FileCopyrightText = "2026 Kai Ole Hartwig"
+SPDX-FileCopyrightText = "2026 Kai Ole Hartwig <mail@ole-hartwig.eu>"
 SPDX-License-Identifier = "MIT"
