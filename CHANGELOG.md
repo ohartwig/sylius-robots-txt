@@ -1,3 +1,13 @@
+## [1.1.24](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/compare/v1.1.23...v1.1.24) (2026-09-28)
+
+### :repeat: Continuous Integrations
+
+* mirror releases to GitHub and notify Packagist ([c24871f](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/c24871fba5c30bb7bb7fe9de813e66f83b1b7b03))
+
+### :repeat: Chores
+
+* **deps:** update dependency devops/ci-cd-components/composed-default-pipelines to v2.21.4 ([b83b412](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/b83b412d1d2b496a33a5ab6e84c3d0045d380fc1))
+
 ## [1.1.23](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/compare/v1.1.22...v1.1.23) (2026-09-28)
 
 ### :memo: Documentation
