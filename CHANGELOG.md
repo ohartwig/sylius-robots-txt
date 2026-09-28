@@ -1,3 +1,15 @@
+## [1.1.23](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/compare/v1.1.22...v1.1.23) (2026-09-28)
+
+### :memo: Documentation
+
+* link the family threat model from the README ([f19c73d](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/f19c73ddcc05f1e9076f843146444ac528900dff))
+* point project metadata and contribution paths at GitHub ([ce1a264](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/ce1a264532748f1b9e9eaa87149802a618c5d7e0))
+
+### :repeat: Chores
+
+* **reuse:** cover the template-synced .mise.toml and signing key ([ea1e8fa](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/ea1e8fa01ea5c5f21e710d08b92e6c34dc3aed8b))
+* **license:** name the copyright holder with a contact address ([8c8e5ca](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/8c8e5ca6e300e02eac2053a01aa3a999df8d0b45))
+
 ## [1.1.22](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/compare/v1.1.21...v1.1.22) (2026-09-26)
 
 ### :bug: Fixes
