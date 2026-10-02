@@ -1,3 +1,33 @@
+## [1.1.26](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/compare/v1.1.25...v1.1.26) (2026-10-02)
+
+### :repeat: Continuous Integrations
+
+* **deps:** update dependency devops/ci-cd-components/lint-tools to v1.38.5 ([79360e2](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/79360e208fa648785d4ef71bc15c1e0264ae6e0a))
+* **deps:** update dependency devops/ci-cd-components/lint-tools to v1.38.4 ([9707d6d](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/9707d6d490d3815ea3a371a69c461a956132df86))
+* **deps:** update dependency devops/ci-cd-components/lint-tools to v1.38.3 ([f8b9d42](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/f8b9d4207dba5666561561d78ff2bd6c15458749))
+* **deps:** update dependency devops/ci-cd-components/lint-tools to v1.38.2 ([c56aaee](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/c56aaeec0a357389bbf5b89b19a11ad4acb2c965))
+* **deps:** update dependency devops/ci-cd-components/lint-tools to v1.38.1 ([6c26775](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/6c267754dd74b803be4f664cc9b3025750b84230))
+* **deps:** update dependency devops/ci-cd-components/lint-tools to v1.38.0 ([ec3fcf7](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/ec3fcf742e91f8965b07b192a25bfbf79758c78b))
+* **deps:** update dependency devops/ci-cd-components/lint-tools to v1.37.0 ([cd5c075](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/cd5c07548041256a9b3d9f3eca2b05f007f9aedc))
+* **deps:** update dependency devops/ci-cd-components/lint-tools to v1.36.68 ([9b5998f](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/9b5998fe5b6842fbae8c04fbe59f0e7147532c2e))
+* **deps:** update dependency devops/ci-cd-components/lint-tools to v1.36.67 ([a1af1e5](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/a1af1e5cb172738f3139ae4adf9d2123e992bf19))
+* **deps:** update dependency devops/ci-cd-components/lint-tools to v1.36.66 ([74e9cbe](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/74e9cbe77cbb7979495316e82422f0a44268bdb7))
+* follow composed-default-pipelines on the rolling major tag ([c5e963a](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/c5e963a8aa76cae2c1078c952947f50664516597))
+* **deps:** update dependency devops/ci-cd-components/composed-default-pipelines to v2.21.27 ([ddad4e0](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/ddad4e0b211fe5c28fa248f064e8f6c815c8aeaf))
+* **deps:** update dependency devops/ci-cd-components/composed-default-pipelines to v2.21.26 ([d035021](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/d035021641680fec6b5ebb21914346ef91d52001))
+* **deps:** update dependency devops/ci-cd-components/lint-tools to v1.36.65 ([c01517e](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/c01517e4ab16f3971ad50994be0c4b5e73711b66))
+* **deps:** update dependency devops/ci-cd-components/composed-default-pipelines to v2.21.25 ([3b575ae](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/3b575ae0d79110dd5d706042a613e26fd73d4fbb))
+* **deps:** update dependency devops/ci-cd-components/composed-default-pipelines to v2.21.21 ([6e0f502](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/6e0f5021cb29f8a6be44f7d7ded8a19b04465f4f))
+* **deps:** update dependency devops/ci-cd-components/lint-tools to v1.36.64 ([bc929c5](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/bc929c50806e04035fbfcadec57f5d807f9d521c))
+* **deps:** update dependency devops/ci-cd-components/lint-tools to v1.36.63 ([60a0a7f](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/60a0a7fd94824e7cdbb1927127e3c47182119522))
+* **deps:** update dependency devops/ci-cd-components/composed-default-pipelines to v2.21.18 ([0efa0eb](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/0efa0eb13905e8ea8fd7c9a52893df21bed67a0d))
+* **deps:** update dependency devops/ci-cd-components/composed-default-pipelines to v2.21.17 ([b1bd491](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/b1bd491980d843e1f077f5d8043e089f4aefdfda))
+
+### :repeat: Chores
+
+* **deps:** update dependency devops/ci-cd-components/lint-tools to v1.36.61 ([8f3b79a](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/8f3b79a7b1b3ea518e91455f03d341bfdf456bf9))
+* **repo-templates:** sync ([f6a8e35](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/f6a8e35d1ec73263155f01d9812e06efc44cdde9))
+
 ## [1.1.25](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/compare/v1.1.24...v1.1.25) (2026-09-30)
 
 ### :bug: Fixes
