@@ -1,3 +1,14 @@
+## [1.1.28](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/compare/v1.1.27...v1.1.28) (2026-10-04)
+
+### :repeat: Continuous Integrations
+
+* **deps:** update dependency devops/ci-cd-components/lint-tools to v1.38.16 ([28bca24](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/28bca24dd8b356b7f7140884fab58e4f072eaeae))
+* **deps:** update dependency devops/ci-cd-components/lint-tools to v1.38.15 ([03eb4db](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/03eb4dbf998db93e95ee62185f62a5c58d926cee))
+
+### :repeat: Chores
+
+* **repo-templates:** sync ([c2700f0](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/c2700f0a3bfc77b0f2f38a0658ddb63cfe090630))
+
 ## [1.1.27](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/compare/v1.1.26...v1.1.27) (2026-10-04)
 
 ### :bug: Fixes
