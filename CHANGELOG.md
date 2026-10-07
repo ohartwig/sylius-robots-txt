@@ -1,3 +1,15 @@
+## [1.1.31](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/compare/v1.1.30...v1.1.31) (2026-10-07)
+
+### :repeat: Continuous Integrations
+
+* **deps:** update dependency devops/ci-cd-components/lint-tools to v1.38.26 ([dfba404](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/dfba404db79275499c6da97f155eb614add158a2))
+* **deps:** update dependency devops/ci-cd-components/lint-tools to v1.38.25 ([0d7eed7](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/0d7eed769df803d313fb0e1f135284bab3e6e698))
+* **deps:** update dependency devops/ci-cd-components/lint-tools to v1.38.24 ([08637ac](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/08637aceca894df223ecb869882751b55dae7d8b))
+
+### :repeat: Chores
+
+* **deps:** update dependency phpstan/phpstan to ^2.3.0 ([106c31e](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/106c31eb84293553e97715c8f6050e843a24f331))
+
 ## [1.1.30](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/compare/v1.1.29...v1.1.30) (2026-10-06)
 
 ### :repeat: Chores
