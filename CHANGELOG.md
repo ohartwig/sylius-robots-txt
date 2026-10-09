@@ -1,3 +1,19 @@
+## [1.1.32](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/compare/v1.1.31...v1.1.32) (2026-10-09)
+
+### :repeat: Continuous Integrations
+
+* **deps:** update dependency devops/ci-cd-components/lint-tools to v1.38.33 ([13f3537](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/13f3537853c470bef6dbefd0b933bb1acb5646b1))
+* **deps:** update dependency devops/ci-cd-components/lint-tools to v1.38.32 ([68266b8](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/68266b873a7389154d89e01461652bea39bdbd2b))
+* **deps:** update dependency devops/ci-cd-components/lint-tools to v1.38.31 ([794bf89](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/794bf89c329f25c3ffd6e0ddd4bb655f55d0ea27))
+* **deps:** update dependency devops/ci-cd-components/lint-tools to v1.38.30 ([5e32af7](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/5e32af7a21d4834ac7a74492053fe2956d3e0e51))
+* **deps:** update dependency devops/ci-cd-components/lint-tools to v1.38.29 ([bd44c9c](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/bd44c9c0fbf88dce163d614029c6f207566df0b3))
+* **deps:** update dependency devops/ci-cd-components/lint-tools to v1.38.28 ([3c559d7](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/3c559d774e3643cb6ef4387ab4dddc289cb66e21))
+* **deps:** update dependency devops/ci-cd-components/lint-tools to v1.38.27 ([6f44b39](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/6f44b392d39889a7c500ced1f9efdaa379288331))
+
+### :repeat: Chores
+
+* **deps:** update dependency phpstan/phpstan to ^2.3.1 ([62634fa](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/62634fa8c43f986731609504888abeac23213829))
+
 ## [1.1.31](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/compare/v1.1.30...v1.1.31) (2026-10-07)
 
 ### :repeat: Continuous Integrations
