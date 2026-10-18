@@ -1,3 +1,24 @@
+## [1.1.34](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/compare/v1.1.33...v1.1.34) (2026-10-18)
+
+### :bug: Fixes
+
+* admit PHP 8.3 and test the floor on it ([d267f15](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/d267f1521cf478b2c6d300b05c3a2fe998ade646))
+
+### :repeat: Continuous Integrations
+
+* **deps:** update dependency devops/ci-cd-components/lint-tools to v1.40.6 ([8f0b729](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/8f0b72925328d0ba88fc6849a5f700e0100a81c6))
+* **deps:** update dependency devops/ci-cd-components/lint-tools to v1.40.5 ([1125673](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/11256739c72a256cede14b65b0d06aeb283c3a7f))
+* **deps:** update dependency devops/ci-cd-components/lint-tools to v1.40.4 ([c61cf32](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/c61cf32bb08b08c21983eee35ba3bead53792365))
+* **deps:** update dependency devops/ci-cd-components/lint-tools to v1.40.3 ([1206b56](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/1206b561a529144d9e9ef04a8bfe1f25325c1300))
+* **deps:** update dependency devops/ci-cd-components/lint-tools to v1.40.2 ([617b2e1](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/617b2e148c55ac2d55e7f7d047dd69fb45df9744))
+* **deps:** update dependency devops/ci-cd-components/lint-tools to v1.40.1 ([7e3baaa](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/7e3baaaa51634e6932425eb31e896ee6c2604f7d))
+* **deps:** update dependency devops/ci-cd-components/lint-tools to v1.40.0 ([d0ccaa8](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/d0ccaa810522a936cadbe190420364f8572495a5))
+* **deps:** update dependency devops/ci-cd-components/lint-tools to v1.39.15 ([7eb6500](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/7eb65001460444c0fce915dfdb5159cd20abd851))
+* **deps:** update dependency devops/ci-cd-components/lint-tools to v1.39.14 ([a3ba1a4](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/a3ba1a41224bd7297d35e4375f4a5713e3c163de))
+* **deps:** update dependency devops/ci-cd-components/lint-tools to v1.39.13 ([b073d7f](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/b073d7f2cc1c70922071e6f7026fd2707fe5f71f))
+* **deps:** update dependency devops/ci-cd-components/lint-tools to v1.39.12 ([d8c68ce](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/d8c68cee932522b20143d78cc296f9022efcfbbb))
+* **deps:** update dependency devops/ci-cd-components/lint-tools to v1.39.11 ([b160f5a](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/b160f5ae8411ed9213b75eca317c73460dff2b74))
+
 ## [1.1.33](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/compare/v1.1.32...v1.1.33) (2026-10-16)
 
 ### :repeat: Continuous Integrations
