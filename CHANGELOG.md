@@ -1,3 +1,9 @@
+## [1.1.39](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/compare/v1.1.38...v1.1.39) (2026-11-14)
+
+### :repeat: Chores
+
+* **deps:** update dependency phpunit/phpunit to ^11.5.58 ([41f23b4](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/41f23b4a1ec7652ee37a6ddf582ee575488c0b08))
+
 ## [1.1.38](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/compare/v1.1.37...v1.1.38) (2026-11-06)
 
 ### :repeat: Chores
