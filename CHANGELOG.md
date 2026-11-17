@@ -1,3 +1,9 @@
+## [1.1.41](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/compare/v1.1.40...v1.1.41) (2026-11-17)
+
+### :bug: Fixes
+
+* **composer:** point homepage at the package page ([0903e1a](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/0903e1a531b437303c8793bbc351fa0d17e41532))
+
 ## [1.1.40](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/compare/v1.1.39...v1.1.40) (2026-11-17)
 
 ### :repeat: Chores
