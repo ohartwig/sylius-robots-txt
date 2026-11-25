@@ -1,3 +1,9 @@
+## [1.2.0](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/compare/v1.1.42...v1.2.0) (2026-11-25)
+
+### :sparkles: Features
+
+* add the ARD Agentmap directive ([0686ec6](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/commit/0686ec6bc597168d32a1f96dca5687f6c792cad4))
+
 ## [1.1.42](https://git.ole-hartwig.eu/ai-ready-platform/platform/sylius-robots-txt/compare/v1.1.41...v1.1.42) (2026-11-20)
 
 ### :repeat: Chores
