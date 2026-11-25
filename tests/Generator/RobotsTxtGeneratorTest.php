@@ -51,6 +51,23 @@ final class RobotsTxtGeneratorTest extends TestCase
         self::assertStringContainsString('Sitemap: https://shop.example.com/sitemap.xml', $body);
     }
 
+    /** Agentmap (ARD) sits with Sitemap outside every group, absolute like it. */
+    public function testAgentmapFollowsTheSitemapLinesAsAnAbsoluteUrl(): void
+    {
+        $body = (new RobotsTxtGenerator(sitemaps: ['/sitemap.xml'], agentmaps: ['/.well-known/ard.json', 'https://cdn.example.com/ard.json']))->generate($this->context());
+
+        self::assertStringEndsWith(
+            "Sitemap: https://shop.example.com/sitemap.xml\nAgentmap: https://shop.example.com/.well-known/ard.json\nAgentmap: https://cdn.example.com/ard.json\n",
+            $body,
+        );
+    }
+
+    /** Nothing is announced unless configured: the manifest may not exist. */
+    public function testNoAgentmapByDefault(): void
+    {
+        self::assertStringNotContainsString('Agentmap', (new RobotsTxtGenerator())->generate($this->context()));
+    }
+
     public function testAbsoluteSitemapUrlsPassThroughUnchanged(): void
     {
         $body = (new RobotsTxtGenerator(sitemaps: ['https://cdn.example.com/sitemap.xml']))->generate($this->context());

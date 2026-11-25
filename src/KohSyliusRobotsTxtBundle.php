@@ -41,6 +41,11 @@ final class KohSyliusRobotsTxtBundle extends AbstractBundle
                     ->scalarPrototype()->end()
                     ->defaultValue(['/sitemap.xml'])
                 ->end()
+                ->arrayNode('agentmaps')
+                    ->info('ARD Agentmap directives: agent-entry manifests such as /.well-known/ard.json. Absolute URLs, or channel-relative paths that get expanded. Empty by default: only list a manifest the application serves.')
+                    ->scalarPrototype()->end()
+                    ->defaultValue([])
+                ->end()
                 ->arrayNode('ai_crawlers')
                     ->addDefaultsIfNotSet()
                     ->children()
@@ -91,6 +96,7 @@ final class KohSyliusRobotsTxtBundle extends AbstractBundle
         $builder->setParameter('koh_robots_txt.enabled', (bool) ($config['enabled'] ?? true));
         $builder->setParameter('koh_robots_txt.disallow', $config['disallow'] ?? []);
         $builder->setParameter('koh_robots_txt.sitemaps', $config['sitemaps'] ?? []);
+        $builder->setParameter('koh_robots_txt.agentmaps', $config['agentmaps'] ?? []);
         $builder->setParameter('koh_robots_txt.extra', (string) ($config['extra'] ?? ''));
         $builder->setParameter('koh_robots_txt.ai_crawlers.allowed', (bool) ($ai['allowed'] ?? true));
         $builder->setParameter('koh_robots_txt.ai_crawlers.agents', $ai['agents'] ?? []);

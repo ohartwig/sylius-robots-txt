@@ -37,6 +37,7 @@ return static function (ContainerConfigurator $container): void {
             service(ContentSignal::class),
             param('koh_robots_txt.sitemaps'),
             param('koh_robots_txt.extra'),
+            param('koh_robots_txt.agentmaps'),
         ])
         ->public();
 
