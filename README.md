@@ -44,6 +44,7 @@ not trained on:
 koh_robots_txt:
     disallow: ['/admin', '/_mcp', '/mcp/oauth/']
     sitemaps: ['/sitemap.xml']          # relative paths get expanded per channel
+    agentmaps: []                       # ARD manifests, e.g. ['/.well-known/ard.json']
 
     ai_crawlers:
         allowed: true                   # false ⇒ Disallow: / for every named token
@@ -75,7 +76,14 @@ Content-Signal: ai-train=no, search=yes, ai-input=yes
 Allow: /
 
 Sitemap: https://shop.example.com/sitemap.xml
+Agentmap: https://shop.example.com/.well-known/ard.json   # only with agentmaps set
 ```
+
+`Agentmap` is the [ARD](https://agenticresourcediscovery.org/) directive
+(§5.1) that points agents at a manifest of the origin's agent artefacts, the
+way `Sitemap` points crawlers at its URLs. It is empty by default because this
+package cannot know whether such a manifest is served; koh/sylius-api-catalog
+serves one at `/.well-known/ard.json`.
 
 Why the AI crawlers get their own group rather than being folded into `*`:
 several of them only honour a policy that names their product token, and

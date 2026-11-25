@@ -74,6 +74,7 @@ final class KohSyliusRobotsTxtBundleTest extends TestCase
 
         self::assertTrue($container->getParameter('koh_robots_txt.enabled'));
         self::assertSame(['/sitemap.xml'], $container->getParameter('koh_robots_txt.sitemaps'));
+        self::assertSame([], $container->getParameter('koh_robots_txt.agentmaps'));
         self::assertSame('', $container->getParameter('koh_robots_txt.extra'));
         self::assertTrue($container->getParameter('koh_robots_txt.ai_crawlers.allowed'));
         self::assertSame([], $container->getParameter('koh_robots_txt.ai_crawlers.disallow'));
@@ -98,6 +99,7 @@ final class KohSyliusRobotsTxtBundleTest extends TestCase
             'enabled' => false,
             'disallow' => ['/checkout'],
             'sitemaps' => ['https://cdn.example.com/sitemap.xml'],
+            'agentmaps' => ['/.well-known/ard.json'],
             'extra' => '# hand-written',
             'ai_crawlers' => [
                 'allowed' => false,
@@ -115,6 +117,7 @@ final class KohSyliusRobotsTxtBundleTest extends TestCase
         self::assertFalse($container->getParameter('koh_robots_txt.enabled'));
         self::assertSame(['/checkout'], $container->getParameter('koh_robots_txt.disallow'));
         self::assertSame(['https://cdn.example.com/sitemap.xml'], $container->getParameter('koh_robots_txt.sitemaps'));
+        self::assertSame(['/.well-known/ard.json'], $container->getParameter('koh_robots_txt.agentmaps'));
         self::assertSame('# hand-written', $container->getParameter('koh_robots_txt.extra'));
         self::assertFalse($container->getParameter('koh_robots_txt.ai_crawlers.allowed'));
         self::assertSame(['GPTBot'], $container->getParameter('koh_robots_txt.ai_crawlers.agents'));

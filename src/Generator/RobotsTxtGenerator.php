@@ -49,6 +49,7 @@ final class RobotsTxtGenerator
      * @param list<string> $defaultDisallow
      * @param list<string> $aiDisallow
      * @param list<string> $sitemaps      absolute URLs or channel-relative paths
+     * @param list<string> $agentmaps     ARD entry sources, absolute URLs or channel-relative paths
      */
     public function __construct(
         private readonly array $aiCrawlers = self::DEFAULT_AI_CRAWLERS,
@@ -58,6 +59,7 @@ final class RobotsTxtGenerator
         private readonly ?ContentSignal $contentSignal = null,
         private readonly array $sitemaps = ['/sitemap.xml'],
         private readonly string $extra = '',
+        private readonly array $agentmaps = [],
     ) {
     }
 
@@ -76,6 +78,12 @@ final class RobotsTxtGenerator
         $sitemapLines = [];
         foreach ($this->sitemaps as $sitemap) {
             $sitemapLines[] = 'Sitemap: '.(str_starts_with($sitemap, 'http') ? $sitemap : $context->url($sitemap));
+        }
+
+        // Agentmap (ARD §5.1) is non-group like Sitemap and points at an
+        // agent-entry manifest the same way Sitemap points at a URL list.
+        foreach ($this->agentmaps as $agentmap) {
+            $sitemapLines[] = 'Agentmap: '.(str_starts_with($agentmap, 'http') ? $agentmap : $context->url($agentmap));
         }
 
         if ([] !== $sitemapLines) {
